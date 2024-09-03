@@ -81,6 +81,16 @@ export default function Projects() {
           url={project.url}
         />
       ))}
+      <a
+        href="https://github.com/bhood239/portfolio_"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-gray-300"
+      >
+        <h1 className="text-xl mb-8 mt-10 text-center ">
+          Code for this portfolio site
+        </h1>
+      </a>
     </div>
   );
 }
