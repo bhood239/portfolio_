@@ -19,7 +19,7 @@ export default function TopNavBar({ title }: Props) {
         )}
       </button>
       <ul
-        className={`flex-col lg:flex lg:flex-row lg:items-center absolute lg:static top-12 left-0 right-0 bg-black lg:bg-transparent lg:h-auto lg:w-auto z-40 transition-all duration-300 ease-in-out ${
+        className={`flex-col lg:flex lg:flex-row lg:items-center lg:justify-between absolute lg:static top-12 left-0 right-0 bg-black lg:bg-transparent lg:h-auto lg:w-auto z-40 transition-all duration-300 ease-in-out ${
           isOpen ? "flex" : "hidden"
         }`}
       >
