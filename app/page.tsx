@@ -39,7 +39,7 @@ export default function Home() {
           I am an innovative software developer with a passion for problem
           solving, collaboration and continuous learning.
         </p>
-        <div className="flex justify-between w-full max-w-md mx-auto mt-10 ml-4 mr-4">
+        <div className="flex justify-center w-full max-w-md mx-auto mt-10 space-x-8">
           <a
             href="https://www.linkedin.com/in/ben-hood-webdev"
             className="text-lg font-semibold hover:text-gray-300"
